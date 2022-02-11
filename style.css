@@ -16,18 +16,23 @@
 .ex-2-square:active{
     width: 100%;
 }
- .ex-2-square:hover{
-   
-}
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 4s;
+}
+.ex-3-square:hover{
+     border-radius: 50%;
 }
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: background-color 2s;
+}
+.ex-4-square:hover{
+    background-color: transparent;
 }
 .ex-5-square {
     margin: 20px;
